@@ -1,8 +1,8 @@
-# Conversazione con un pazzo che si crede Gramsci
+# Conversazione con un pazzo
 
-Semplice applicazione di un modello markoviano per conversare con un pazzo che si crede Gramsci... Si tratta di un programmino dimostrativo che uso nelle mie conferenze o che mostro come esempio di programmazione Python nei miei corsi introduttivi. Non originale e perfettibile, ma funzionante:-)
+Semplice applicazione di un modello markoviano per conversare con un pazzo che si crede Gramsci... Si tratta di un programmino dimostrativo che uso nelle mie conferenze o che mostro come esempio di programmazione Python nei miei corsi introduttivi. Non originale e perfettibile, ma funzionante:-) La cosa sorprendente del programma è che produce frasi grammaticalmente corrette, sebbene di dubbio senso, partendo da esmepi di frasi prese come input dal modello markoviano.
 
-Basta scaricare i file in una cartella e dare in pasto all'interprete Python il file conversazione.py. In questo file sono definite tre variabili
+Per farlo funzionare basta scaricare i file in una cartella e dare in pasto all'interprete Python il file conversazione.py. In questo file sono definite tre variabili
 
 ```python
 NOME = "Gramsci"

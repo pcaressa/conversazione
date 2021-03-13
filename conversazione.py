@@ -1,10 +1,9 @@
 import pickle
 import markov
 
-# Modificare queste variabili per caricare un file con un altro autore...
 NOME = "Gramsci"
 NOME_FILE = "gramsci.txt"
-ENC = "latin-1"
+ENC = "utf-8"
 
 # Se il file NOME.pkl esiste lo carica, se no lo crea e lo salva
 try:

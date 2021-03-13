@@ -32,10 +32,10 @@ def analizza_testo(testo):
     return token
     
 
-def analizza(nome_file):
+def analizza(nome_file, enc="utf-8"):
     """Legge un file di testo, estrae la successione dei token e la scrive su
         un altro file con estensione ".tok"."""
-    with open(nome_file) as file_in,  \
+    with open(nome_file, encoding=enc) as file_in,  \
             open(nome_file + ".tok", "w") as file_out:
         for riga in file_in:
             token = analizza_testo(riga)
